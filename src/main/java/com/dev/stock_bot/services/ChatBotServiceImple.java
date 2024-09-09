@@ -21,8 +21,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
 public class ChatBotServiceImple implements ChatBotService {
-    String GEMINI_API_KEY = "AIzaSyAFbJHVujFd6k_jGEe13-_V2AM3e9DlIKc";
-    String ALPHAVANTAGE_API_KEY = "TM2UZ5VQP8NLUHEW";
+    String GEMINI_API_KEY = "your key";
+    String ALPHAVANTAGE_API_KEY = "your key";
 
     public String getSymbol(String companyName) throws Exception {
         // Construct the URL for SYMBOL_SEARCH with dynamic company name and API key
